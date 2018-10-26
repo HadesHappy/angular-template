@@ -1,0 +1,17 @@
+ng new angular-tour-of-heroes   #new app
+ng serve --open                 #continuous build + browser watch
+
+#generating components/
+
+ng generate component heroes
+ng generate component hero-detail
+ng generate service hero
+ng generate component messages
+
+ng generate module app-routing --flat --module=app    #flat -- no own folder; module=app --> registers to AppModule
+
+--------------------
+# Build & deployment
+ng build    #(or `ng build --prod`) --> myapp/dist folder; the page is runnable:
+/myapp/dist> python -m SimpleHTTPServer 8000
+
