@@ -1,0 +1,11 @@
+<div class="card" *ngIf="user!=undefined">
+  <div class="card-header bg-info text-white">
+    <span class=" ">Edit user</span>
+    <span class="far fa-times-circle clickable float-right" (click)="user=undefined"></span>
+  </div>
+  <div class="card-body">
+    <div class="narrow8">Id: {{user.id}}</div>
+    <input class="narrow8" [(ngModel)]="user.name">
+    <input class="narrow8" [(ngModel)]="user.email">
+  </div>
+</div>

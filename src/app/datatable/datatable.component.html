@@ -1,0 +1,32 @@
+<div class="boxed">
+
+  <div class="row">
+    <div class="col-sm-8">
+      <table class="table table-hover table-striped table-sm table-bordered">
+        <thead>
+        <tr>
+          <th width="10%" ng-click="sortByNazwisko()" class="clickable"> Id</th>
+          <th width="45%" ng-click="sortByScore()" class="clickable"> Name</th>
+          <th width="45%" ng-click="sortByScore()" class="clickable"> Email</th>
+        </tr>
+
+        </thead>
+        <tbody>
+        <!--add: user selection => edit field -->
+        <tr *ngFor="let u of users" (click)="onSelect(u)" class="clickable">
+          <td>{{u.id}}</td>
+          <td>{{u.name}}</td>
+          <td>{{u.email}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--edit panel to the right-->
+    <div class="col-sm-4">
+      <!--providing object to children-->
+      <app-edituser [user]="selectedUser"></app-edituser>
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,13 @@
+
+.boxed {
+    border-radius: 3px;
+    border: 1px solid #2a6496;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.clickable {
+  cursor: pointer;
+}
