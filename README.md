@@ -1,6 +1,24 @@
 # A7Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
+## Instalacja:
+
+- zainstalować node.js (ściągnąć z oficjalnej strony; ver 8)
+- mieć zainstalowany git bash (można ściągnąć z https://git-scm.com/downloads)
+- otworzyć konsolę `git bash` i dać `node -v` (powinno wypisać wersję itp)
+- przejść do folderu `IdeaProjects` i wy-checkout-ować obecny projekt
+  - przez komendę `git clone https://github.com/teamWSIZ/angular-template.git`
+- zainstalować angular cli (komenda `ng`)
+  - `npm install -g @angular/cli`
+- doczytać wszystkie pakiety (biblioteki)
+  - `npm install`
+- skompilować i uruchomić aplikację
+  - `ng serve -o`
+  
+   
+
+
+
+
 
 ## Development server
 
