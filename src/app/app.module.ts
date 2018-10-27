@@ -8,6 +8,7 @@ import {DatatableComponent} from './datatable/datatable.component';
 import {EdituserComponent} from './edituser/edituser.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {HttpClientModule} from "@angular/common/http";
     TopbarComponent,
     DashboardComponent,
     DatatableComponent,
-    EdituserComponent
+    EdituserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
