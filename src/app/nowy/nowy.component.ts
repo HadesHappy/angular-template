@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nowy.component.css']
 })
 export class NowyComponent implements OnInit {
-  sekret = "abra-kadabra";
+  sekret = 'abra-kadabra';
 
   constructor() { }
 
@@ -14,6 +14,6 @@ export class NowyComponent implements OnInit {
   }
 
   ukryj() {
-    this.sekret = "********";
+    this.sekret = '********';
   }
 }
